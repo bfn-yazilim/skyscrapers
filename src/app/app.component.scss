@@ -42,7 +42,8 @@ html {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-  background: linear-gradient(192.02deg, #5CAAA8 0%, #ACD3AE 100%);
+  /*background: linear-gradient(192.02deg, #5CAAA8 0%, #ACD3AE 100%);*/
+  background: #f4f2ee url(https://bfn.tr/assets/img/bfn-yazilim-background.jpg) no-repeat top center;
   height: 100%;
 
   .apartman-img {
@@ -114,7 +115,8 @@ content {
   align-items: center;
   width: 100%;
   max-width: 430px;
-  height: calc(100vh - (100vh - 100%) - 30px);
+  height: 100%;
+  min-height: 90vh;
   margin: 0 auto;
 
   h1 {
@@ -124,14 +126,13 @@ content {
     font-size: 40px;
     line-height: 111%;
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
   }
 
   .buttons {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 40px;
     width: 100%;
     gap: 10px;
     justify-content: center;
@@ -214,7 +215,7 @@ table.apartman {
       }
 
       &.number {
-        color: #838383;
+        color: #636161;
       }
 
       &.active {
@@ -233,10 +234,10 @@ table.apartman {
 
 @media only screen and (max-width: 600px) {
   content {
-    padding: 0 20px;
+    padding: 0 16px;
 
     h1 {
-      font-size: 36px;
+      font-size: 30px;
     }
   }
 }
