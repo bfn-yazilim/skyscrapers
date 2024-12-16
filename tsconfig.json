@@ -2,8 +2,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./apartman-oyunu/",
-    "outDir": "./dist/out-tsc",
+    "baseUrl": "/",
+    "outDir": "./docs/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": false,
     "noImplicitOverride": true,
